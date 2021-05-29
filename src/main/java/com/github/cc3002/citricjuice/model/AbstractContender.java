@@ -12,6 +12,7 @@ public abstract class AbstractContender {
   private int stars;
   private int variable;
   private int win;
+  private int hola;
 
 
   public AbstractContender(final String name, int hp, final int atk, final int def, final int evd) {
@@ -23,6 +24,7 @@ public abstract class AbstractContender {
     this.stars = 0;
     this.win = 0;
     this.variable=0;
+    this.hola= 0;
   }
 
   public String getName() {
